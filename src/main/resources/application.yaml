@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    log-request-details: true
+  main:
+    banner-mode: "off"
+
+app:
+  alfabank:
+    url: https://apiws.alfabank.ru/alfabank/alfadevportal/atm-service
+    client-id: ba2b3005-3442-43e2-bd53-f2cbe05dbddb
+
+
+
